@@ -10,31 +10,12 @@ import {
     TouchableOpacity,
 } from 'react-native'
 
-const ensureComponentIsNative = require('ensureComponentIsNative');
-import type { NativeMethodsMixinType } from 'ReactNativeTypes';
-
-
 class MenuItem extends React.Component {
 
     constructor(props) {
         super(props);
         this.state = { opened: this.props.open ? this.props.open : false }
     }
-
-    setNativeProps(props: Object) {
-        // Work-around flow
-        const viewRef = this._viewRef;
-        if (viewRef) {
-            ensureComponentIsNative(viewRef);
-            viewRef.setNativeProps(props);
-        }
-    }
-
-    _viewRef: ?NativeMethodsMixinType = null;
-
-    _captureRef = ref => {
-        this._viewRef = ref;
-    };
 
     buildStyle = (style) => {
         var style = StyleSheet.flatten(style) || {}
