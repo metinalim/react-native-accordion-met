@@ -236,21 +236,19 @@ const styles = StyleSheet.create({
 ```
 
 
-## Props 
-
-for <Accordion /> Component 
+## Props for <Accordion /> Component 
 | Name | Value | Note |
 |---|---|---|
 |__`duration`__|`integer`|Miliseconds for collapsing animation duration time
 |__`style`__|`N/A`|A StyleSheet rule name just as used for default RN Components.
 
-for <Accordion.Item /> Component 
+## Props for <Accordion.Item /> Component 
 | Name | Value | Note |
 |---|---|---|
 |__`open`__|`boolean`|true/false whether the item is opened. Be sure to use it only once for each accordion.
 |__`style`__|`N/A`|A StyleSheet rule name just as used for default RN Components.
 
-for <Accordion.Header /> and <Accordion.Content /> Components
+## Props for <Accordion.Header /> and <Accordion.Content /> Components
 | Name | Value | Note |
 |---|---|---|
 |__`style`__|`N/A`|A StyleSheet rule name just as used for default RN Components.
