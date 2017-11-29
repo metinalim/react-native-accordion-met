@@ -1,0 +1,21 @@
+{
+  "name": "react-native-accordion-met",
+  "version": "1.0.0",
+  "description": "React Native Accordion Menu",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "React",
+    "Native",
+    "Accordion",
+    "Menu"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://metinalim@github.com/metinalim/react-native-accordion-met.git"
+  },
+  "author": "Metin Alim",
+  "license": "ISC"
+}
