@@ -236,7 +236,7 @@ const styles = StyleSheet.create({
 ```
 
 
-## Props for <Accordion /> Component 
+## Props for Accordion Component 
 | Name | Value | Note |
 |---|---|---|
 |__`duration`__|`integer`|Miliseconds for collapsing animation duration time
