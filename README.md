@@ -43,13 +43,12 @@ A working example:
 ```shell
 import React, { Component } from 'react';
 import {
-  Platform,
   StyleSheet,
   Text,
   View
 } from 'react-native';
 
-var Accordion = require('react-native-accordion-met');
+import Accordion from 'react-native-accordion-met';
 
 export default class App extends Component<{}> {
   render() {
