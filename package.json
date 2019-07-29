@@ -18,12 +18,13 @@
   },
   "author": "Metin Alim",
   "license": "ISC",
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
   "devDependencies": {
     "@types/react": "^16.8.13",
     "@types/react-native": "^0.57.46",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-native": "^0.59.5",
     "tslint": "^5.16.0",
     "tslint-config-prettier": "^1.18.0",
     "tslint-eslint-rules": "^5.4.0",

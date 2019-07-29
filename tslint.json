@@ -14,6 +14,7 @@
     "interface-name": false,
     "jsx-no-lambda": false,
     "no-string-literal": false,
+    "no-unused-expression": false,
     "object-literal-sort-keys": false,
     "no-empty": [
       false

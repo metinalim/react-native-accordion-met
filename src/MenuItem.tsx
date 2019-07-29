@@ -77,7 +77,7 @@ export default class MenuItem extends React.Component<Props, State> {
     const { children, style, index, duration } = this.props;
     const viewStyle = style ? this.buildStyle(style) : null
 
-    const childrenWithProps = React.Children.map(children, (child: ReactNode, i) => {
+    const childrenWithProps = React.Children.map(children, (child: ReactNode, _i) => {
       let refName
       if (React.isValidElement(child) && ((child.type as React.SFC).displayName === 'ItemContent')) {
         refName = `refContent${index}`

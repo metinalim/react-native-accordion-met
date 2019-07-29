@@ -81,7 +81,6 @@ export default class Accmenu extends React.Component<Props> {
 
   shrinkSiblings = (ind: number) => {
     const { children } = this.props
-    /* tslint:disable:no-unused-expression */
     children !== undefined && children.map((_child, i: number) => {
       if (i !== ind) {
         const refName = 'item' + i

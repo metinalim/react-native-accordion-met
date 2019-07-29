@@ -70,11 +70,7 @@ export default class ItemHeader extends React.Component<Props> {
     props.addChildHeight(height)
   }
 
-  expand = () => { }
-
-  shrink = () => { }
-
-  setContentHeight = (height: number) => { }
+  setContentHeight = (_height: number) => { }
 
   render() {
     const { children, style } = this.props;
